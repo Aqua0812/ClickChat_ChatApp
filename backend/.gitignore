@@ -1,0 +1,52 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+.pnpm-debug.log*
+
+# env
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# logs
+logs
+*.log
+logs/*.log
+npm-debug.log
+yarn-debug.log
+debug.log
+pm2.log
+
+# pid
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# cache
+*.cache
+.cache/
+
+# database
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+dump.rdb
+mongodb/
+data/
+
+# temp files
+tmp/
+temp/
+
+# os & ide
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
